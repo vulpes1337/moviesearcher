@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #dfdfdf;
+  color: black;
+}
+
+.main-navbar {
+  background-color: rgb(5, 184, 130);
+}
+
+.main-link {
+  color: #ffffff
+}
+
+.main-link:hover {
+  color: #d1d1d1
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  background-color: #dfdfdf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-input:focus {
+  background-color: #dfdfdf;
+}
+
+.movie-title {
+  font-weight: regular;
+  font-size: 16px;
+}
+
+.img-wrapper {
+  background-color: rgb(5, 184, 130);
+  position: relative;
+}
+
+.movie-preview-wrapper {
+  max-width: 260px;
+}
+
+.movie-title {
+  color: #ffffff;
+  padding: 5px;
+  opacity: 2;
+}
+
+.movie-preview-bg {
+  margin: auto;
+  max-width: 270px;
+  padding: 5px;
+  background-color: rgb(5, 184, 130);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.movie-preview-img {
+  width: 260px;
+  height: 390px;
+}
+
+.preloader {
+  width: 200px;
+  margin: auto;
+}
+
+.fav-button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 10px;
+  bottom: 2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.fav-button--del {
+  background: url("./icons8-heart-outline-32-red.png") no-repeat 0px 0px;
+}
+
+.fav-button--add {
+  background: url("./icons8-heart-outline-32.png") no-repeat 0px 0px;
+}
+
+.movie-title--bg {
+  background-color: black;
+  height: 32px;
+  position: absolute;
+  width: 260px;
+  bottom: 0px;
+}
+
+
+.single-movie-wrapper {
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media(max-width: 1140px) {
+  .single-movie-wrapper {
+    display: block;
+    text-align: center;
+  }
+  .single-movie-content {
+    margin: auto;
+  }
+
+  .single-movie-img {
+    display: inline;
+  }
+}
+
+.single-movie-img {
+  max-height: 750px;
+}
+
+.single-movie-title {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.single-movie-content {
+  max-width: 600px;
+  margin-left: 10px;
+}
+
+.genres {
+  padding-right: 5px;
+}
+
+.preview-title {
+  max-width: 200px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.similar-header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.pagination-wrapper {
+  background-color: rgb(5, 184, 130);
+}
+
+.pagination-page {
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+
+.pagination-button {
+  border-color: white;
+  color: white;
+}
+
+.pagination-button--prev {
+  width: 81px;
+}
+
+.pagination-button--next{
+}
+
+.pagination-button:hover {
+  background-color: rgba(5, 184, 130, 0.815);
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between
+}
+
+.single-movie-slogan {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.not-found-title {
+  font-size: 10em;
+  color: rgb(129, 129, 129);
+  text-align: center;
+  margin-top: 15%;
+}
+
+.not-found-text {
+  font-size: 2em;
+  color: rgb(129, 129, 129);
+  text-align: center;
+}
+
